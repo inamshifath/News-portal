@@ -74,7 +74,9 @@ const Business = () => {
                             })
                         }
                     </div>
-                    <button className="bg-red-600 text-white px-16 rounded-xl hover:btn-ghost py-2 text-2xl font-medium ml-[50%] mt-5" onClick={handleMore}>See more</button>
+                    {
+                        visible==6 || <button className="bg-red-600 text-white px-16 rounded-xl hover:btn-ghost py-2 text-2xl font-medium ml-[50%] mt-5" onClick={handleMore}>See more</button>
+                    }
                 </div>
                 <div className="w-[26%] mt-7">
                     <h1 className="w-full text-center py-2 px-5 bg-red-600 text-white font-medium">Leatest News</h1>
